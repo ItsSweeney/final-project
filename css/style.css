@@ -33,17 +33,16 @@ li a:active
    background-color: #3a05ce;
    color: #765567;
 }
-nav
-{
+nav{
    background-color: #3a05ce;
    padding: 0px;
    text-align: center;
    width: 600px;
    margin: auto;
-   position: fixed right;
-   clear:left;
+   position: fixed center;
+
    top: 0px;
-   
+   position: -webkit-sticky;
  }
 
  .clearfix::after {
@@ -53,8 +52,7 @@ nav
 }
     
 
-ul 
-{
+ul {
    background-color: #0b9606;
    }
 
@@ -82,10 +80,13 @@ ul
 
 p{
       width: 300px;
-      border: 15px solid #3a05ce;
+
       padding: 50px;
       margin: 20px;
-     background-color: #0b9606;
+      background-color: #0b9606;
+      text-align: start;
+  
+   
     
    } 
    h2{
@@ -95,6 +96,7 @@ p{
       margin: 20px;
       background-color: #0b9606;
       text-align: center;
+  
       
    }
 
@@ -189,13 +191,31 @@ input[type=submit]:hover {
   padding: 20px;
   float: right;
 }
-   
-footer{
-   height: 100px;
-   width: 100px;
-   display: block;
-   background-color: #3a05ce;
-   margin: 12px;
-  
- }
 
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+ 
+div.social-media-links {
+  font-size: 24px;
+  font-weight: 200;
+  margin: 0;
+ text-align: center;
+}
+
+.h3 {
+  font-size: 24px;
+  font-weight: 200;
+  margin: 0;
+ text-align: center;
+}
+
+.h4 {
+  font-size: 24px;
+  font-weight: 200;
+  margin: 0;
+ 
+}
